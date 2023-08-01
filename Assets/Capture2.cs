@@ -45,5 +45,7 @@ public class Capture2 : MonoBehaviour
 
         // Texture'i serbest bırak
         Destroy(screenshot);
+        
+        GameManager.instance.ClearObj();
     }
 }
